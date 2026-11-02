@@ -97,7 +97,8 @@ a { color: var(--link); }
 
 .game p { font-size: 19px; }
 
-.soon {
+.soon,
+.store {
   display: inline-block;
   margin: 4px 0 16px;
   padding: 6px 14px;
@@ -106,6 +107,8 @@ a { color: var(--link); }
   color: var(--accent-ink);
   font-weight: 700;
 }
+
+.store { text-decoration: none; }
 
 .links { margin-top: 8px; }
 
