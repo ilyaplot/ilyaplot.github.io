@@ -126,6 +126,19 @@ a { color: var(--link); }
 .game-name { display: block; color: var(--ink); font-size: 20px; font-weight: 800; }
 .game-line { display: block; color: var(--muted); }
 
+h3 { margin: 24px 0 8px; color: var(--ink); font-size: 18px; }
+.credits li { margin-bottom: 10px; overflow-wrap: anywhere; }
+
+.license {
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: var(--place);
+  font: 13px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 480px) {
   .title { font-size: 36px; }
   .card { padding: 22px 18px; border-radius: 20px; }
